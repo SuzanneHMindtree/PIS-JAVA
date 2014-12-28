@@ -1,0 +1,299 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.junfenglu.persistence;
+
+import com.junfenglu.hospitalbeans.Patient;
+import com.junfenglu.hospitalbeans.Inpatient;
+import com.junfenglu.hospitalbeans.Surgical;
+import com.junfenglu.hospitalbeans.Medication;
+import com.junfenglu.properties.connectionbean.ConnectionConfigBean;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Marker;
+import org.slf4j.MarkerFactory;
+
+/**
+ *
+ * @author kenfogel
+ */
+public class PatientDAOImpl implements PatientDAO {
+
+    private final Logger log = LoggerFactory.getLogger(this.getClass()
+            .getName());
+    private final Marker fatal = MarkerFactory.getMarker("FATAL");
+
+//    private final String url = "jdbc:mysql://localhost:3306/hospitaldb";
+//    private final String user = "root";
+//    private final String password = "lu614000";
+    private final String url;
+    private final String user;
+    private final String password;
+
+    public PatientDAOImpl(ConnectionConfigBean connectionConfig) {
+        super();
+
+        url = connectionConfig.getUrl() + ":" + connectionConfig.getPort() + "/" + connectionConfig.getDatabase();
+        user = connectionConfig.getUsername();
+        password = connectionConfig.getPassword();
+    }
+
+    /**
+     * Create a new patient record
+     * @param patient
+     * @return an integer which is the generated ID
+     * @throws SQLException 
+     */
+
+    @Override
+    public int create(Patient patient) throws SQLException {
+
+        int generatedKey = 0;
+        String createQuery = "INSERT INTO PATIENT (LASTNAME, FIRSTNAME, DIAGNOSIS, ADMISSIONDATE, RELEASEDATE) VALUES (?,?,?,?,?)";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                PreparedStatement ps = connection.prepareStatement(createQuery, PreparedStatement.RETURN_GENERATED_KEYS);) {
+            ps.setString(1, patient.getLastName());
+            ps.setString(2, patient.getFirstName());
+            ps.setString(3, patient.getDiagnosis());
+            ps.setTimestamp(4, patient.getAdmissionDate());
+            ps.setTimestamp(5, patient.getReleaseDate());
+
+            ps.executeUpdate();
+            ResultSet rs = ps.getGeneratedKeys();
+            if (rs.next()) {
+                generatedKey = rs.getInt(1);
+            }
+        }
+        log.info("Inserted ID is : " + generatedKey);
+        return generatedKey;
+    }
+
+    /**
+     * retrieve all the patient records
+     * @return an ArrayList of patients
+     * @throws SQLException 
+     */
+    @Override
+    public ArrayList<Patient> findAll() throws SQLException {
+
+        ArrayList<Patient> rows = new ArrayList<>();
+
+        String selectQuery = "SELECT PATIENTID, LASTNAME, FIRSTNAME, DIAGNOSIS, ADMISSIONDATE, RELEASEDATE FROM PATIENT";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                // You must use PreparedStatements to guard against SQL Injection
+                PreparedStatement pStatement = connection
+                .prepareStatement(selectQuery);
+                ResultSet resultSet = pStatement.executeQuery()) {
+            while (resultSet.next()) {
+                Patient patient = new Patient();
+
+                patient.setPatientId(resultSet.getInt("PATIENTID"));
+                patient.setLastName(resultSet.getString("LASTNAME"));
+                patient.setFirstName(resultSet.getString("FIRSTNAME"));
+                patient.setDiagnosis(resultSet.getString("DIAGNOSIS"));
+                patient.setAdmissionDate(resultSet.getTimestamp("ADMISSIONDATE"));
+                patient.setReleaseDate(resultSet.getTimestamp("RELEASEDATE"));
+
+                patient.setInpatients(findInpatients(resultSet.getInt("PATIENTID")));
+                patient.setMedications(findMedications(resultSet.getInt("PATIENTID")));
+                patient.setSurgicals(findSurgicals(resultSet.getInt("PATIENTID")));
+
+                rows.add(patient);
+            }
+        }
+        log.info("# of records found : " + rows.size());
+        return rows;
+
+    }
+
+    /**
+     * update a record of patient
+     * @param patient
+     * @return the number of record(s) updated, actually 1 if successful
+     * @throws SQLException 
+     */
+    @Override
+    public int update(Patient patient) throws SQLException {
+        int updateCount = 0;
+
+        String updateQuery = "UPDATE PATIENT SET LASTNAME=?, FIRSTNAME=?, DIAGNOSIS=?, ADMISSIONDATE=?, RELEASEDATE=? WHERE PATIENTID=?";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                PreparedStatement ps = connection.prepareStatement(updateQuery, PreparedStatement.RETURN_GENERATED_KEYS);) {
+            ps.setString(1, patient.getLastName());
+            ps.setString(2, patient.getFirstName());
+            ps.setString(3, patient.getDiagnosis());
+            ps.setTimestamp(4, patient.getAdmissionDate());
+            ps.setTimestamp(5, patient.getReleaseDate());
+            ps.setInt(6, patient.getPatientId());
+
+            ps.executeUpdate();
+            updateCount = ps.getUpdateCount();
+
+
+        }
+
+        log.info("ID of record updated : " + updateCount);
+        return updateCount;
+
+    }
+
+    
+    /**
+     * Delete a patient record
+     * @param patientID
+     * @return the number of records deleted, actually 1 if successful
+     * @throws SQLException 
+     */
+    @Override
+    public int delete(int patientID) throws SQLException {
+        int result = 0;
+
+        String deleteQuery = "DELETE FROM PATIENT WHERE PATIENTID=?";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                PreparedStatement ps = connection.prepareStatement(deleteQuery);) {
+            ps.setInt(1, patientID);
+
+            result=ps.executeUpdate();
+
+
+        }
+        log.info("# of record deleted : " + result);
+        return result;
+    }
+    
+    
+    /**
+     * Find all the inpatient records of a patient
+     * @param patientID
+     * @return
+     * @throws SQLException 
+     */
+    private ArrayList<Inpatient> findInpatients(int patientID) throws SQLException {
+        ArrayList<Inpatient> rows = new ArrayList<>();
+
+        String selectQuery = "SELECT ID, PATIENTID, DATEOFSTAY, ROOMNUMBER, DAILYRATE, SUPPLIES, SERVICES FROM INPATIENT WHERE PATIENTID = ?";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                PreparedStatement pStatement = connection
+                .prepareStatement(selectQuery);) {
+            pStatement.setInt(1, patientID);
+            try (ResultSet resultSet = pStatement.executeQuery()) {
+
+                while (resultSet.next()) {
+                    Inpatient inpatient = new Inpatient();
+
+                    inpatient.setID(resultSet.getInt("ID"));
+                    inpatient.setPatientId(resultSet.getInt("PATIENTID"));
+                    inpatient.setDateOfStay(resultSet.getTimestamp("DATEOFSTAY"));
+                    inpatient.setRoomNumber(resultSet.getString("ROOMNUMBER"));
+                    inpatient.setDailyRate(resultSet.getBigDecimal("DAILYRATE"));
+                    inpatient.setSupplies(resultSet.getBigDecimal("SUPPLIES"));
+                    inpatient.setServices(resultSet.getBigDecimal("SERVICES"));
+
+                    rows.add(inpatient);
+
+                }
+            }
+        }
+        log.info("# of records found : " + rows.size());
+
+        return rows;
+    }
+
+    
+    /**
+     * Find all the surgical records of a patient
+     * @param patientID
+     * @return
+     * @throws SQLException 
+     */
+    private ArrayList<Surgical> findSurgicals(int patientID) throws SQLException {
+        ArrayList<Surgical> rows = new ArrayList<>();
+
+        String selectQuery = "SELECT ID, PATIENTID,DATEOFSURGERY,SURGERY,ROOMFEE,SURGEONFEE,SUPPLIES FROM SURGICAL WHERE PATIENTID = ?";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                PreparedStatement pStatement = connection
+                .prepareStatement(selectQuery);) {
+            pStatement.setInt(1, patientID);
+            try (ResultSet resultSet = pStatement.executeQuery()) {
+
+                while (resultSet.next()) {
+                    Surgical surgical = new Surgical();
+
+                    surgical.setID(resultSet.getInt("ID"));
+                    surgical.setPatientId(resultSet.getInt("ID"));
+                    surgical.setSurgery(resultSet.getString("SURGERY"));
+                    surgical.setRoomFee(resultSet.getBigDecimal("ROOMFEE"));
+                    surgical.setSurgeonFee(resultSet.getBigDecimal("SURGEONFEE"));
+                    surgical.setSupplies(resultSet.getBigDecimal("SUPPLIES"));
+
+                    rows.add(surgical);
+
+                }
+            }
+        }
+        log.info("# of records found : " + rows.size());
+
+        return rows;
+    }
+
+    /**
+     * Find all the medication records of a patient
+     * @param patientID
+     * @return
+     * @throws SQLException 
+     */
+    private ArrayList<Medication> findMedications(int patientID) throws SQLException {
+        ArrayList<Medication> rows = new ArrayList<>();
+
+        String selectQuery = "SELECT ID, PATIENTID, DATEOFMED, MED, UNITCOST, UNITS FROM MEDICATION WHERE PATIENTID = ?";
+
+        try (Connection connection = DriverManager.getConnection(url, user,
+                password);
+                PreparedStatement pStatement = connection
+                .prepareStatement(selectQuery);) {
+            pStatement.setInt(1, patientID);
+            try (ResultSet resultSet = pStatement.executeQuery()) {
+
+                while (resultSet.next()) {
+                    Medication medication = new Medication();
+
+                    medication.setID(resultSet.getInt("ID"));
+                    medication.setPatientId(resultSet.getInt("PATIENTID"));
+                    medication.setDateOfMed(resultSet.getTimestamp("DATEOFMED"));
+                    medication.setMed(resultSet.getString("MED"));
+                    medication.setUnitCost(resultSet.getBigDecimal("UNITCOST"));
+                    medication.setUnits(resultSet.getBigDecimal("UNITS"));
+
+                    rows.add(medication);
+
+                }
+            }
+        }
+        log.info("# of records found : " + rows.size());
+
+        return rows;
+    }
+
+    
+
+}

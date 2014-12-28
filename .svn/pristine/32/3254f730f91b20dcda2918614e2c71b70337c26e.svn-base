@@ -1,0 +1,131 @@
+package com.junfenglu.hospitalbeans;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+public class Surgical {
+	private int ID;
+	private int patientId;
+	private Date dateOfSurgery;
+	private String surgery;
+	private BigDecimal roomFee;
+	private BigDecimal surgeonFee;
+	private BigDecimal supplies;
+
+	/**
+	 * 
+	 */
+	public Surgical() {
+		this(-1, -1, new Date(), "", new BigDecimal("0.0"), new BigDecimal(
+				"0.0"), new BigDecimal("0.0"));
+	}
+
+	/**
+	 * @param iD
+	 * @param patientId
+	 * @param dateOfSurgery
+	 * @param surgery
+	 * @param roomFee
+	 * @param surgeonFee
+	 * @param supplies
+	 */
+	public Surgical(int iD, int patientId, Date dateOfSurgery,
+			String surgery, BigDecimal roomFee, BigDecimal surgeonFee,
+			BigDecimal supplies) {
+		super();
+		ID = iD;
+		this.patientId = patientId;
+		this.dateOfSurgery = dateOfSurgery;
+		this.surgery = surgery;
+		this.roomFee = roomFee;
+		this.surgeonFee = surgeonFee;
+		this.supplies = supplies;
+	}
+
+	public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public int getPatientId() {
+		return patientId;
+	}
+
+	public void setPatientId(int patientId) {
+		this.patientId = patientId;
+	}
+
+	public Date getDateOfSurgery() {
+		return dateOfSurgery;
+	}
+
+	public void setDateOfSurgery(Date dateOfSurgery) {
+		this.dateOfSurgery = dateOfSurgery;
+	}
+
+	public String getSurgery() {
+		return surgery;
+	}
+
+	public void setSurgery(String surgery) {
+		this.surgery = surgery;
+	}
+
+	public BigDecimal getRoomFee() {
+		return roomFee;
+	}
+
+	public void setRoomFee(BigDecimal roomFee) {
+		this.roomFee = roomFee;
+	}
+
+	public BigDecimal getSurgeonFee() {
+		return surgeonFee;
+	}
+
+	public void setSurgeonFee(BigDecimal surgeonFee) {
+		this.surgeonFee = surgeonFee;
+	}
+
+	public BigDecimal getSupplies() {
+		return supplies;
+	}
+
+	public void setSupplies(BigDecimal supplies) {
+		this.supplies = supplies;
+	}
+
+	@Override
+	public String toString() {
+		return "Surgical [ID=" + ID + ", patientId=" + patientId
+				+ ", dateOfSurgery=" + dateOfSurgery + ", surgery=" + surgery
+				+ ", roomFee=" + roomFee + ", surgeonFee=" + surgeonFee
+				+ ", supplies=" + supplies + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + (ID ^ (ID >>> 32));
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Surgical other = (Surgical) obj;
+		if (ID != other.ID)
+			return false;
+		return true;
+	}
+
+}

@@ -1,0 +1,119 @@
+package com.junfenglu.hospitalbeans;
+
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.util.Date;
+
+public class Medication {
+	private int ID;
+	private int patientId;
+	private Timestamp dateOfMed;
+	private String med;
+	private BigDecimal unitCost;
+	private BigDecimal units;
+
+	/**
+	 * 
+	 */
+	public Medication() {
+		this(-1, -1, new Timestamp(0l), "", new BigDecimal("0.0"), new BigDecimal(
+				"0.0"));
+	}
+
+	/**
+	 * @param iD
+	 * @param patientId
+	 * @param dateOfMed
+	 * @param med
+	 * @param unitCost
+	 * @param units
+	 */
+	public Medication(int iD, int patientId, Timestamp dateOfMed, String med,
+			BigDecimal unitCost, BigDecimal units) {
+		super();
+		ID = iD;
+		this.patientId = patientId;
+		this.dateOfMed = dateOfMed;
+		this.med = med;
+		this.unitCost = unitCost;
+		this.units = units;
+	}
+
+	public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public int getPatientId() {
+		return patientId;
+	}
+
+	public void setPatientId(int patientId) {
+		this.patientId = patientId;
+	}
+
+	public Timestamp getDateOfMed() {
+		return dateOfMed;
+	}
+
+	public void setDateOfMed(Timestamp dateOfMed) {
+		this.dateOfMed = dateOfMed;
+	}
+
+	public String getMed() {
+		return med;
+	}
+
+	public void setMed(String med) {
+		this.med = med;
+	}
+
+	public BigDecimal getUnitCost() {
+		return unitCost;
+	}
+
+	public void setUnitCost(BigDecimal unitCost) {
+		this.unitCost = unitCost;
+	}
+
+	public BigDecimal getUnits() {
+		return units;
+	}
+
+	public void setUnits(BigDecimal units) {
+		this.units = units;
+	}
+
+	@Override
+	public String toString() {
+		return "Medication [ID=" + ID + ", patientId=" + patientId
+				+ ", dateOfMed=" + dateOfMed + ", med=" + med + ", unitCost="
+				+ unitCost + ", units=" + units + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + (ID ^ (ID >>> 32));
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Medication other = (Medication) obj;
+		if (ID != other.ID)
+			return false;
+		return true;
+	}
+
+}

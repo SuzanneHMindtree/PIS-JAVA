@@ -1,0 +1,117 @@
+
+package com.junfenglu.properties.connectionbean;
+
+import java.util.Objects;
+
+/**
+ * Bean class for connection to database
+ * @author Junfeng Lu
+ */
+public class ConnectionConfigBean {
+
+    private String url;
+    private String port;
+    private String database;
+    private String username;
+    private String password;
+
+    public ConnectionConfigBean(String url, String port, String database, String username, String password) {
+        this.url = url;
+        this.port = port;
+        this.database = database;
+        this.username = username;
+        this.password = password;
+    }
+    
+    
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getPort() {
+        return port;
+    }
+
+    public void setPort(String port) {
+        this.port = port;
+    }
+
+    public String getDatabase() {
+        return database;
+    }
+
+    public void setDatabase(String database) {
+        this.database = database;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public ConnectionConfigBean() {
+        super();
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 97 * hash + Objects.hashCode(this.url);
+        hash = 97 * hash + Objects.hashCode(this.port);
+        hash = 97 * hash + Objects.hashCode(this.database);
+        hash = 97 * hash + Objects.hashCode(this.username);
+        hash = 97 * hash + Objects.hashCode(this.password);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final ConnectionConfigBean other = (ConnectionConfigBean) obj;
+        if (!Objects.equals(this.url, other.url)) {
+            return false;
+        }
+        if (!Objects.equals(this.port, other.port)) {
+            return false;
+        }
+        if (!Objects.equals(this.database, other.database)) {
+            return false;
+        }
+        if (!Objects.equals(this.username, other.username)) {
+            return false;
+        }
+        if (!Objects.equals(this.password, other.password)) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "ConnectionConfigBean{" + "url=" + url + ", port=" + port + ", database=" + database + ", username=" + username + ", password=" + password + '}';
+    }
+
+    
+    
+}

@@ -1,0 +1,108 @@
+package com.junfenglu.properties.manager;
+
+import com.junfenglu.properties.connectionbean.ConnectionConfigBean;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.file.Files;
+import static java.nio.file.Files.newInputStream;
+import static java.nio.file.Files.newOutputStream;
+import java.nio.file.Path;
+import static java.nio.file.Paths.get;
+import java.nio.file.StandardOpenOption;
+import java.util.Properties;
+
+/**
+ *Class that reads and writes into property files
+ * @author Junfeng Lu
+ */
+public class PropertiesManager {
+
+    /**
+     * @param propFileName
+     */
+    public PropertiesManager() {
+        super();
+    }
+
+    /**
+     * Read text properties file from the root folder
+     * @param path path of the properties file
+     * @param propFileName Name of the properties file
+     * @return The bean loaded with the properties
+     * @throws IOException
+     */
+    public ConnectionConfigBean loadTextProperties(String path, String propFileName)
+            throws IOException {
+
+        Properties prop = new Properties();
+
+        Path txtFile = get(path, propFileName + ".properties");
+        ConnectionConfigBean connectionConfig = new ConnectionConfigBean();
+
+        // File must exist
+        if (Files.exists(txtFile)) {
+            try (InputStream propFileStream = newInputStream(txtFile);) {
+                prop.load(propFileStream);
+            }
+            connectionConfig.setUrl(prop.getProperty("url"));
+            connectionConfig.setPort(prop.getProperty("port"));
+             connectionConfig.setDatabase(prop.getProperty("database"));
+            connectionConfig.setUsername(prop.getProperty("username"));
+            connectionConfig.setPassword(prop.getProperty("password"));
+            ;
+        }
+        return connectionConfig;
+    }
+
+    /**
+     * Write the text properties file
+     * @param path path of the properties file
+     * @param propFileName Name of the properties file
+     * @param mailConfig The bean to store into the properties
+     * @throws IOException
+     */
+    public void writeTxtProperties(String path, String propFileName,
+            ConnectionConfigBean connectionConfig) throws IOException {
+
+        Properties prop = new Properties();
+        Path txtFile = get(path, propFileName + ".properties");
+
+        prop.setProperty("url", connectionConfig.getUrl());
+        prop.setProperty("port", connectionConfig.getPort());
+        prop.setProperty("database", connectionConfig.getDatabase());
+        prop.setProperty("username", connectionConfig.getUsername());
+        prop.setProperty("password", connectionConfig.getPassword());
+
+        try (OutputStream propFileStream = newOutputStream(txtFile,
+                StandardOpenOption.CREATE);) {
+            prop.store(propFileStream, "Connection Properties");
+        }
+    }
+
+    /**
+     * Read the properties file from a jar file
+     * @param propertiesFileName
+     * @return The bean loaded with the properties
+     * @throws IOException
+     * @throws NullPointerException 
+     */
+    public ConnectionConfigBean loadJarTextProperties(String propertiesFileName)
+            throws IOException, NullPointerException {
+        Properties prop = new Properties();
+        ConnectionConfigBean connectionConfig = new ConnectionConfigBean();
+
+        // Throws NullPointerException if file is not found
+        try (InputStream stream = getClass().getResourceAsStream("/" + propertiesFileName);) {
+            prop.load(stream);
+        }
+        connectionConfig.setUrl(prop.getProperty("url"));
+        connectionConfig.setPort(prop.getProperty("port"));
+        connectionConfig.setDatabase(prop.getProperty("database"));
+        connectionConfig.setUsername(prop.getProperty("username"));
+        connectionConfig.setPassword(prop.getProperty("password"));
+
+        return connectionConfig;
+    }
+
+}

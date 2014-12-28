@@ -1,0 +1,130 @@
+package com.junfenglu.hospitalbeans;
+
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Patient {
+
+    private int patientId;
+    private String lastName;
+    private String firstName;
+    private String diagnosis;
+    private Timestamp admissionDate;
+    private Timestamp releaseDate;
+    private ArrayList<Inpatient> inpatients;
+    private ArrayList<Surgical> surgicals;
+    private ArrayList<Medication> medications;
+
+    /**
+     *
+     */
+    public Patient() {
+
+        this(-1, "", "", "", new Timestamp(0l), new Timestamp(0l));
+    }
+
+    /**
+     * @param patientId
+     * @param lastName
+     * @param firstName
+     * @param diagnosis
+     * @param admissionDate
+     * @param releaseDate
+     */
+    public Patient(int patientId, String lastName, String firstName,
+            String diagnosis, Timestamp admissionDate, Timestamp releaseDate) {
+        super();
+        this.patientId = patientId;
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.diagnosis = diagnosis;
+        this.admissionDate = admissionDate;
+        this.releaseDate = releaseDate;
+        inpatients = new ArrayList<>();
+        surgicals = new ArrayList<>();
+        medications = new ArrayList<>();
+
+    }
+
+    public int getPatientId() {
+        return patientId;
+    }
+
+    public void setPatientId(int patientId) {
+        this.patientId = patientId;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getDiagnosis() {
+        return diagnosis;
+    }
+
+    public void setDiagnosis(String diagnosis) {
+        this.diagnosis = diagnosis;
+    }
+
+    public Timestamp getAdmissionDate() {
+        return admissionDate;
+    }
+
+    public void setAdmissionDate(Timestamp admissionDate) {
+        this.admissionDate = admissionDate;
+    }
+
+    public Timestamp getReleaseDate() {
+        return releaseDate;
+    }
+
+    public void setReleaseDate(Timestamp releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    public ArrayList<Inpatient> getInpatients() {
+        return inpatients;
+    }
+
+    public void setInpatients(ArrayList<Inpatient> inpatients) {
+        this.inpatients = inpatients;
+    }
+
+    public ArrayList<Surgical> getSurgicals() {
+        return surgicals;
+    }
+
+    public void setSurgicals(ArrayList<Surgical> surgicals) {
+        this.surgicals = surgicals;
+    }
+
+    public ArrayList<Medication> getMedications() {
+        return medications;
+    }
+
+    public void setMedications(ArrayList<Medication> medications) {
+        this.medications = medications;
+    }
+
+    @Override
+    public String toString() {
+        return "Patient [patientId=" + patientId + ", lastName=" + lastName
+                + ", firstName=" + firstName + ", diagnosis=" + diagnosis
+                + ", admissionDate=" + admissionDate + ", releaseDate="
+                + releaseDate + "]";
+    }
+
+}

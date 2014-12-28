@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.junfenglu.view.HospitalOverviewController">
+    <children>
+        <AnchorPane layoutX="100.0" layoutY="51.0" prefHeight="400.0" prefWidth="300" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <SplitPane dividerPositions="0.5083612040133779" layoutX="121.0" prefHeight="160.0" prefWidth="150.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="50.0">
+                            <children>
+                                <TableView fx:id="patientTable" maxWidth="1.7976931348623157E308" prefHeight="398.0" prefWidth="311.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <columnResizePolicy>
+                                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                    </columnResizePolicy>
+                                    <columns>
+                                        <TableColumn fx:id="firstNameColumn" prefWidth="143.0" text="First Name" />
+                                        <TableColumn fx:id="lastNameColumn" prefWidth="138.0" text="Last Name" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="300">
+                            <children>
+                                <TabPane layoutX="8.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <tabs>
+                                        <Tab text="Patient">
+                                            <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="300">
+                                                    <children>
+                                                        <GridPane hgap="2.0" layoutX="4.0" layoutY="64.0" prefHeight="135.0" prefWidth="250.0" vgap="2.0">
+                                                            <children>
+                                                                <Label GridPane.rowIndex="1" />
+                                                                <Label text="Diagnosis" GridPane.rowIndex="3" />
+                                                                <Label text="Admission Date" GridPane.rowIndex="4" />
+                                                                <Label text="Release Date" GridPane.rowIndex="5" />
+                                                                <Label fx:id="firstNameLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                <Label fx:id="lastNameLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                <Label fx:id="diagnosisLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                <Label text="Last Name" GridPane.rowIndex="2" />
+                                                                <Label fx:id="admissionDateLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                <Label fx:id="releaseDateLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                                <Label />
+                                                                <Label GridPane.columnIndex="1" />
+                                                                <Label text="Patient ID" />
+                                                                <Label text="First Name" GridPane.rowIndex="1" />
+                                                                <Label fx:id="IDLabel" text="Label" GridPane.columnIndex="1" />
+                                                            </children>
+                                                            <columnConstraints>
+                                                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="151.0" minWidth="10.0" prefWidth="151.0" />
+                                                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="149.0" minWidth="10.0" prefWidth="147.0" />
+                                                            </columnConstraints>
+                                                            <padding>
+                                                                <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                                                            </padding>
+                                                            <rowConstraints>
+                                                                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                                                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                                                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                                                <RowConstraints maxHeight="33.0" minHeight="10.0" vgrow="SOMETIMES" />
+                                                                <RowConstraints maxHeight="34.0" minHeight="10.0" vgrow="SOMETIMES" />
+                                                                <RowConstraints maxHeight="32.0" minHeight="10.0" vgrow="SOMETIMES" />
+                                                            </rowConstraints>
+                                                        </GridPane>
+                                                        <Label layoutX="14.0" layoutY="23.0" prefHeight="25.0" prefWidth="137.0" text="Patient Information" />
+                                                        <HBox layoutX="141.0" layoutY="321.0" prefHeight="34.0" prefWidth="136.0" spacing="4.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                            <children>
+                                                                <Button layoutX="92.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleNewPatient" text="New" />
+                                                                <Button layoutX="154.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleEditPatient" text="Edit" />
+                                                                <Button layoutX="214.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleDeletePatient" text="Delete" />
+                                                            </children>
+                                                        </HBox>
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </Tab>
+                                        <Tab text="Inpatient">
+                                            <content>
+                                                <AnchorPane maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="300">
+                                                    <children>
+                                                        <HBox layoutX="141.0" layoutY="321.0" prefHeight="34.0" prefWidth="136.0" spacing="4.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                            <children>
+                                                                <Button layoutX="92.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleNewInpatient" text="New" />
+                                                                <Button layoutX="154.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleEditInpatient" text="Edit" />
+                                                                <Button layoutX="214.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleDeleteInpatient" text="Delete" />
+                                                            </children>
+                                                        </HBox>
+                                                        <TableView fx:id="inpatientTable" maxWidth="1.7976931348623157E308" prefWidth="300.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                            <columns>
+                                                                <TableColumn fx:id="dateOfStayCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Date of Stay" />
+                                                                <TableColumn fx:id="roomNbrCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Room Nbr" />
+                                                                <TableColumn fx:id="dailyRateCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Daily Rate" />
+                                                                <TableColumn fx:id="suppliesCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Supplies" />
+                                                                <TableColumn fx:id="servicesCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Services" />
+                                                            </columns>
+                                                        </TableView>
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </Tab>
+                                        <Tab text="Surgical">
+                                            <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="300.0">  <children>
+                                                                <TableView fx:id="surgicalTable" layoutX="14.0" layoutY="21.0" maxWidth="1.7976931348623157E308" prefWidth="300.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                    <columns>
+                                                                        <TableColumn fx:id="dateOfSurgeryCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Date of Surgery" />
+                                                                        <TableColumn fx:id="surgeryCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Surgery" />
+                                                                        <TableColumn fx:id="roomFeeCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Room Fee" />
+                                                                        <TableColumn fx:id="surgeonFeeCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Surgeon Fee" />
+                                                                        <TableColumn fx:id="surgerySuppliesCol" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="Supplies" />
+                                                                    </columns>
+                                                                </TableView>
+                                                                <HBox layoutX="141.0" layoutY="315.0" prefHeight="34.0" prefWidth="136.0" spacing="4.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                    <children>
+                                                                        <Button layoutX="92.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleNewSurgical" text="New" />
+                                                                        <Button layoutX="154.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleEditSurgical" text="Edit" />
+                                                                        <Button layoutX="214.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleDeleteSurgical" text="Delete" />
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </Tab>
+                                        <Tab text="Medication">
+                                            <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400" prefWidth="300">
+                                                    <children>
+                                                        <TableView fx:id="medicationTable" layoutX="14.0" layoutY="14.0" maxWidth="1.7976931348623157E308" prefWidth="300.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                            <columns>
+                                                                <TableColumn fx:id="dateOfMedCol" maxWidth="1.7976931348623157E308" prefWidth="75.0" text="Date of Medication" />
+                                                                <TableColumn fx:id="medCol" maxWidth="1.7976931348623157E308" prefWidth="75.0" text="Medication" />
+                                                                <TableColumn fx:id="unitCostCol" maxWidth="1.7976931348623157E308" prefWidth="75.0" text="Unit Cost" />
+                                                                <TableColumn fx:id="unitsCol" maxWidth="1.7976931348623157E308" prefWidth="75.0" text="Units" />
+                                                            </columns>
+                                                        </TableView>
+                                                        <HBox layoutX="141.0" layoutY="312.0" prefHeight="34.0" prefWidth="136.0" spacing="4.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                            <children>
+                                                                <Button layoutX="92.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleNewMedication" text="New" />
+                                                                <Button layoutX="154.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleEditMedication" text="Edit" />
+                                                                <Button layoutX="214.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleDeleteMedication" text="Delete" />
+                                                            </children>
+                                                        </HBox>
+                                                    </children>
+                                                </AnchorPane>
+                                            </content>
+                                        </Tab>
+                                    </tabs>
+                                </TabPane>
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

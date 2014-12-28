@@ -1,0 +1,1308 @@
+18:28:40,277 INFO  [MainApp] Scene set up!
+14:53:58,847 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+14:53:58,925 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+14:53:59,003 INFO  [HospitalDAOImpl] # of records found : 7
+14:53:59,059 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+14:53:59,153 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+14:53:59,168 INFO  [HospitalDAOImpl] # of records found : 6
+14:53:59,262 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+14:53:59,293 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+14:54:16,700 INFO  [MainApp] Scene set up!
+14:54:17,383 ERROR [MainApp] Input/output error: 
+/C:/Users/luis/Documents/PISFXv2/target/classes/fxml/HospitalOverview.fxml
+
+14:57:21,242 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+14:57:21,314 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+14:57:21,349 INFO  [HospitalDAOImpl] # of records found : 7
+14:57:21,429 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+14:57:21,479 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+14:57:21,492 INFO  [HospitalDAOImpl] # of records found : 6
+14:57:21,556 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+14:57:21,592 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+14:57:25,059 INFO  [MainApp] Scene set up!
+14:57:25,325 ERROR [MainApp] Input/output error: 
+/C:/Users/luis/Documents/PISFXv2/target/classes/fxml/HospitalOverview.fxml
+
+15:03:45,114 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:03:45,218 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:03:45,280 INFO  [HospitalDAOImpl] # of records found : 7
+15:03:45,321 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:03:45,392 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:03:45,406 INFO  [HospitalDAOImpl] # of records found : 6
+15:03:45,461 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:03:45,549 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:03:49,068 INFO  [MainApp] Scene set up!
+15:03:50,192 INFO  [HospitalDAOImpl] # of records found : 5
+15:03:52,419 INFO  [HospitalDAOImpl] # of records found : 3
+15:10:45,441 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:10:45,542 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:10:45,588 INFO  [HospitalDAOImpl] # of records found : 7
+15:10:45,601 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:10:45,670 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:10:45,684 INFO  [HospitalDAOImpl] # of records found : 6
+15:10:45,775 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:10:45,819 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:10:49,223 INFO  [MainApp] Scene set up!
+15:10:50,312 INFO  [HospitalDAOImpl] # of records found : 5
+15:10:51,120 INFO  [HospitalDAOImpl] # of records found : 3
+15:10:51,197 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:10:51,213 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:11:02,668 INFO  [HospitalDAOImpl] # of records found : 4
+15:11:02,719 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:11:02,729 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:11:08,391 INFO  [HospitalDAOImpl] # of records found : 4
+15:11:08,414 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:11:08,434 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:11:53,880 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+15:11:53,920 INFO  [HospitalDAOImpl] # of records found : 6
+15:11:55,216 INFO  [HospitalDAOImpl] # of records found : 0
+15:11:55,232 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:11:55,245 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:14:59,298 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:14:59,341 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:14:59,371 INFO  [HospitalDAOImpl] # of records found : 7
+15:14:59,450 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:14:59,523 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:14:59,564 INFO  [HospitalDAOImpl] # of records found : 6
+15:14:59,589 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:14:59,632 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:15:03,209 INFO  [MainApp] Scene set up!
+15:15:04,413 INFO  [HospitalDAOImpl] # of records found : 5
+15:15:05,257 INFO  [HospitalDAOImpl] # of records found : 3
+15:15:05,270 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:15:05,301 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:15:11,063 INFO  [HospitalDAOImpl] # of records found : 4
+15:15:11,101 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:15:11,119 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:15:11,880 INFO  [HospitalDAOImpl] # of records found : 2
+15:15:11,891 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:15:11,924 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:15:12,930 INFO  [HospitalDAOImpl] # of records found : 4
+15:15:12,940 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:15:12,949 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:15:34,813 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+15:15:34,823 INFO  [HospitalDAOImpl] # of records found : 6
+15:15:37,076 INFO  [HospitalDAOImpl] # of records found : 0
+15:15:37,112 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:15:37,119 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:16:07,624 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:16:07,638 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:21:43,299 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:21:43,376 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:21:43,461 INFO  [HospitalDAOImpl] # of records found : 7
+15:21:43,496 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:21:43,553 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:21:43,566 INFO  [HospitalDAOImpl] # of records found : 6
+15:21:43,613 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:21:43,667 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:21:46,893 INFO  [MainApp] Scene set up!
+15:21:48,106 INFO  [HospitalDAOImpl] # of records found : 5
+15:21:49,169 INFO  [HospitalDAOImpl] # of records found : 3
+15:21:49,182 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:21:49,197 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:21:58,192 INFO  [HospitalDAOImpl] # of records found : 4
+15:21:58,225 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:21:58,235 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:22:25,324 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+15:22:25,376 INFO  [HospitalDAOImpl] # of records found : 6
+15:22:27,433 INFO  [HospitalDAOImpl] # of records found : 0
+15:22:27,448 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:22:27,458 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:24:57,142 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:24:57,175 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:24:57,213 INFO  [HospitalDAOImpl] # of records found : 7
+15:24:57,299 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:24:57,318 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:24:57,332 INFO  [HospitalDAOImpl] # of records found : 6
+15:24:57,345 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:24:57,365 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:25:00,664 INFO  [MainApp] Scene set up!
+15:25:01,774 INFO  [HospitalDAOImpl] # of records found : 5
+15:25:02,906 INFO  [HospitalDAOImpl] # of records found : 3
+15:25:02,955 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:25:02,965 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:25:05,648 INFO  [HospitalDAOImpl] # of records found : 4
+15:25:05,664 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:25:05,679 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:25:23,731 ERROR [HospitalOverviewController] SQL error: Data truncation: Incorrect datetime value: '1969-12-31 00:00:00' for column 'ADMISSIONDATE' at row 1
+15:25:45,111 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+15:25:45,162 INFO  [HospitalDAOImpl] # of records found : 6
+15:25:47,193 INFO  [HospitalDAOImpl] # of records found : 0
+15:25:47,233 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:25:47,247 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:26:03,969 INFO  [HospitalDAOImpl] # of records found : 4
+15:26:03,983 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:26:03,999 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:37,081 INFO  [HospitalDAOImpl] # of records found : 2
+15:27:37,091 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:37,100 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:37,659 INFO  [HospitalDAOImpl] # of records found : 7
+15:27:37,678 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:37,691 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:38,217 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:38,258 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:38,270 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:38,718 INFO  [HospitalDAOImpl] # of records found : 3
+15:27:38,732 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:38,742 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:39,253 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:39,269 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:39,278 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:39,718 INFO  [HospitalDAOImpl] # of records found : 7
+15:27:39,731 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:39,744 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:40,161 INFO  [HospitalDAOImpl] # of records found : 2
+15:27:40,185 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:40,194 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:40,684 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:40,693 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:40,705 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:41,150 INFO  [HospitalDAOImpl] # of records found : 0
+15:27:41,163 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:27:41,173 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:27:48,738 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:48,750 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:48,774 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:49,263 INFO  [HospitalDAOImpl] # of records found : 2
+15:27:49,278 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:49,290 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:49,736 INFO  [HospitalDAOImpl] # of records found : 7
+15:27:49,749 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:49,771 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:50,215 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:50,223 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:50,234 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:50,591 INFO  [HospitalDAOImpl] # of records found : 3
+15:27:50,604 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:50,615 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:51,016 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:51,032 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:51,065 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:51,326 INFO  [HospitalDAOImpl] # of records found : 7
+15:27:51,340 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:51,353 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:51,610 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:51,623 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:51,633 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:51,896 INFO  [HospitalDAOImpl] # of records found : 0
+15:27:51,905 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:27:51,915 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:27:52,430 INFO  [HospitalDAOImpl] # of records found : 2
+15:27:52,442 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:52,450 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:52,699 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:52,706 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:52,737 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:53,094 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:53,107 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:53,138 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:53,486 INFO  [HospitalDAOImpl] # of records found : 0
+15:27:53,497 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:27:53,509 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:27:54,007 INFO  [HospitalDAOImpl] # of records found : 7
+15:27:54,017 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:54,031 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:54,423 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:54,434 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:54,442 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:54,826 INFO  [HospitalDAOImpl] # of records found : 2
+15:27:54,844 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:54,857 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:55,192 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:55,203 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:55,215 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:55,572 INFO  [HospitalDAOImpl] # of records found : 0
+15:27:55,616 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:27:55,719 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:27:56,682 INFO  [HospitalDAOImpl] # of records found : 7
+15:27:56,706 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:56,717 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:57,245 INFO  [HospitalDAOImpl] # of records found : 3
+15:27:57,280 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:57,296 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:58,051 INFO  [HospitalDAOImpl] # of records found : 4
+15:27:58,062 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:58,073 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:58,317 INFO  [HospitalDAOImpl] # of records found : 2
+15:27:58,332 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:58,340 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:27:58,609 INFO  [HospitalDAOImpl] # of records found : 0
+15:27:58,628 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:27:58,649 INFO  [HospitalDAOImpl] # of medication records found : 0
+16:47:49,993 INFO  [HospitalDAOImpl] # of records found : 4
+16:47:50,042 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:47:50,051 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:12:57,548 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+18:12:57,642 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+18:12:57,688 INFO  [HospitalDAOImpl] # of records found : 7
+18:12:57,751 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+18:12:57,782 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+18:12:57,782 INFO  [HospitalDAOImpl] # of records found : 6
+18:12:57,864 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+18:12:57,911 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+18:13:02,714 INFO  [MainApp] Scene set up!
+18:13:03,321 INFO  [HospitalDAOImpl] # of records found : 5
+18:13:04,215 INFO  [HospitalDAOImpl] # of records found : 3
+18:13:04,223 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:13:04,231 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:19:38,270 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+18:19:38,317 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+18:19:38,333 INFO  [HospitalDAOImpl] # of records found : 7
+18:19:38,348 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+18:19:38,380 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+18:19:38,380 INFO  [HospitalDAOImpl] # of records found : 6
+18:19:38,411 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+18:19:38,473 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+18:19:40,249 INFO  [MainApp] Scene set up!
+18:19:40,840 INFO  [HospitalDAOImpl] # of records found : 5
+18:19:41,241 INFO  [HospitalDAOImpl] # of records found : 3
+18:19:41,248 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:19:41,255 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:20:48,022 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+18:20:48,034 INFO  [HospitalDAOImpl] # of records found : 6
+18:20:49,336 INFO  [HospitalDAOImpl] # of records found : 0
+18:20:49,351 INFO  [HospitalDAOImpl] # of surgical records found : 0
+18:20:49,358 INFO  [HospitalDAOImpl] # of medication records found : 0
+18:21:09,923 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+18:21:09,928 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:21:17,099 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+18:21:17,108 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:21:41,372 INFO  [HospitalDAOImpl] Inserted surgical ID is : 7
+18:21:41,378 INFO  [HospitalDAOImpl] # of surgical records found : 2
+18:21:48,244 INFO  [HospitalDAOImpl] # of records found : 4
+18:21:48,255 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:21:48,264 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:21:48,815 INFO  [HospitalDAOImpl] # of records found : 0
+18:21:48,825 INFO  [HospitalDAOImpl] # of surgical records found : 2
+18:21:48,834 INFO  [HospitalDAOImpl] # of medication records found : 0
+18:21:54,394 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+18:21:54,404 INFO  [HospitalDAOImpl] ID of patient record found : 7
+18:21:54,414 INFO  [HospitalDAOImpl] # of surgical records found : 2
+18:21:56,433 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+18:54:36,117 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+18:54:36,148 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+18:54:36,163 INFO  [HospitalDAOImpl] # of records found : 7
+18:54:36,226 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+18:54:36,288 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+18:54:36,288 INFO  [HospitalDAOImpl] # of records found : 6
+18:54:36,335 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+18:54:36,351 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+18:54:38,181 INFO  [MainApp] Scene set up!
+18:54:38,894 INFO  [HospitalDAOImpl] # of records found : 5
+18:54:39,357 INFO  [HospitalDAOImpl] # of records found : 3
+18:54:39,366 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:54:39,375 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:54:41,649 INFO  [HospitalDAOImpl] # of records found : 2
+18:54:41,655 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:54:41,661 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:54:51,335 INFO  [HospitalDAOImpl] # of records found : 7
+18:54:51,346 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:54:51,355 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:54:52,632 INFO  [HospitalDAOImpl] # of records found : 7
+18:54:52,636 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:54:52,641 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:55:21,437 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+18:55:21,442 INFO  [HospitalDAOImpl] # of records found : 6
+18:55:23,357 INFO  [HospitalDAOImpl] # of records found : 0
+18:55:23,366 INFO  [HospitalDAOImpl] # of surgical records found : 0
+18:55:23,375 INFO  [HospitalDAOImpl] # of medication records found : 0
+18:55:26,806 INFO  [HospitalDAOImpl] # of records found : 0
+18:55:26,811 INFO  [HospitalDAOImpl] # of medication records found : 0
+18:55:26,816 INFO  [HospitalDAOImpl] # of surgical records found : 0
+18:55:26,911 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+18:55:26,922 INFO  [HospitalDAOImpl] # of records found : 4
+18:55:26,932 INFO  [HospitalDAOImpl] # of surgical records found : 1
+18:55:26,939 INFO  [HospitalDAOImpl] # of medication records found : 1
+18:55:47,767 INFO  [HospitalDAOImpl] Inserted patient ID is : 8
+18:55:47,776 INFO  [HospitalDAOImpl] # of records found : 6
+18:55:51,148 INFO  [HospitalDAOImpl] # of records found : 0
+18:55:51,161 INFO  [HospitalDAOImpl] # of surgical records found : 0
+18:55:51,171 INFO  [HospitalDAOImpl] # of medication records found : 0
+18:56:06,438 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+18:56:06,443 INFO  [HospitalDAOImpl] # of records found : 1
+18:56:16,375 INFO  [HospitalDAOImpl] # of records found : 1
+18:56:16,379 INFO  [HospitalDAOImpl] # of medication records found : 0
+18:56:16,383 INFO  [HospitalDAOImpl] # of surgical records found : 0
+18:56:23,238 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+18:56:23,242 INFO  [HospitalDAOImpl] ID of patient record found : 8
+18:56:23,246 INFO  [HospitalDAOImpl] # of records found : 1
+19:15:41,836 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+19:15:41,898 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+19:15:41,929 INFO  [HospitalDAOImpl] # of records found : 7
+19:15:41,945 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+19:15:41,976 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+19:15:41,992 INFO  [HospitalDAOImpl] # of records found : 6
+19:15:42,007 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+19:15:42,039 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+19:15:45,442 INFO  [MainApp] Scene set up!
+19:15:45,989 INFO  [HospitalDAOImpl] # of records found : 5
+19:15:46,431 INFO  [HospitalDAOImpl] # of records found : 3
+19:15:46,439 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:15:46,450 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:16:19,023 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+19:16:19,030 INFO  [HospitalDAOImpl] # of records found : 6
+19:16:24,136 INFO  [HospitalDAOImpl] # of records found : 0
+19:16:24,148 INFO  [HospitalDAOImpl] # of surgical records found : 0
+19:16:24,158 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:16:34,523 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+19:17:35,338 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+19:17:35,385 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+19:17:35,400 INFO  [HospitalDAOImpl] # of records found : 7
+19:17:35,416 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+19:17:35,447 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+19:17:35,447 INFO  [HospitalDAOImpl] # of records found : 6
+19:17:35,478 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+19:17:35,525 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+19:17:37,415 INFO  [MainApp] Scene set up!
+19:17:37,979 INFO  [HospitalDAOImpl] # of records found : 5
+19:17:38,464 INFO  [HospitalDAOImpl] # of records found : 3
+19:17:38,471 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:17:38,478 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:17:40,443 INFO  [HospitalDAOImpl] # of records found : 4
+19:17:40,450 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:17:40,455 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:18:05,454 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+19:18:05,467 INFO  [HospitalDAOImpl] # of records found : 6
+19:18:08,271 INFO  [HospitalDAOImpl] # of records found : 0
+19:18:08,281 INFO  [HospitalDAOImpl] # of surgical records found : 0
+19:18:08,291 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:18:26,589 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+19:18:26,594 INFO  [HospitalDAOImpl] # of records found : 1
+19:35:34,113 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+19:35:34,129 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+19:35:34,145 INFO  [HospitalDAOImpl] # of records found : 7
+19:35:34,176 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+19:35:34,207 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+19:35:34,207 INFO  [HospitalDAOImpl] # of records found : 6
+19:35:34,363 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+19:35:34,394 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+19:35:36,255 INFO  [MainApp] Scene set up!
+19:35:36,815 INFO  [HospitalDAOImpl] # of records found : 5
+19:35:37,272 INFO  [HospitalDAOImpl] # of records found : 3
+19:35:37,281 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:35:37,290 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:37:56,354 INFO  [HospitalDAOImpl] # of records found : 7
+19:37:56,374 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:37:56,383 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:37:57,175 INFO  [HospitalDAOImpl] # of records found : 2
+19:37:57,186 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:37:57,193 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:38:08,455 INFO  [HospitalDAOImpl] # of records found : 7
+19:38:08,465 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:38:08,472 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:50:54,653 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+19:50:54,685 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+19:50:54,716 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:50:54,731 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+19:50:54,763 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+19:50:54,778 INFO  [HospitalDAOImpl] # of medication records deleted : 0
+19:50:54,934 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+19:50:54,950 INFO  [HospitalDAOImpl] # of records found : 7
+19:50:54,981 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+19:50:54,997 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+19:50:55,028 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+19:50:55,043 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:50:55,043 INFO  [HospitalDAOImpl] # of records found : 6
+19:50:55,075 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+19:50:55,106 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+19:50:55,137 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+19:51:59,480 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+19:51:59,496 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+19:51:59,511 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:51:59,542 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+19:51:59,574 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+19:51:59,620 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+19:51:59,792 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+19:51:59,792 INFO  [HospitalDAOImpl] # of records found : 7
+19:51:59,839 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+19:51:59,870 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+19:51:59,901 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+19:51:59,901 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:51:59,901 INFO  [HospitalDAOImpl] # of records found : 6
+19:51:59,932 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+19:52:00,151 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+19:52:00,182 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+19:52:01,875 INFO  [MainApp] Scene set up!
+19:52:02,513 INFO  [HospitalDAOImpl] # of records found : 5
+19:52:02,966 INFO  [HospitalDAOImpl] # of records found : 3
+19:52:02,975 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:02,982 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:52:09,983 INFO  [HospitalDAOImpl] # of records found : 4
+19:52:09,997 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:10,010 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:52:10,648 INFO  [HospitalDAOImpl] # of records found : 3
+19:52:10,663 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:10,674 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:52:11,340 INFO  [HospitalDAOImpl] # of records found : 4
+19:52:11,352 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:11,363 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:52:11,820 INFO  [HospitalDAOImpl] # of records found : 3
+19:52:11,830 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:11,842 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:52:12,222 INFO  [HospitalDAOImpl] # of records found : 4
+19:52:12,231 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:12,237 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:52:12,564 INFO  [HospitalDAOImpl] # of records found : 7
+19:52:12,573 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:12,581 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:52:12,971 INFO  [HospitalDAOImpl] # of records found : 2
+19:52:12,980 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:12,986 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:52:13,339 INFO  [HospitalDAOImpl] # of records found : 4
+19:52:13,348 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:13,357 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:52:13,747 INFO  [HospitalDAOImpl] # of records found : 2
+19:52:13,756 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:13,765 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:52:14,115 INFO  [HospitalDAOImpl] # of records found : 7
+19:52:14,124 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:14,132 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:52:14,524 INFO  [HospitalDAOImpl] # of records found : 4
+19:52:14,532 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:14,541 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:52:15,019 INFO  [HospitalDAOImpl] # of records found : 3
+19:52:15,028 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:15,036 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:52:15,372 INFO  [HospitalDAOImpl] # of records found : 4
+19:52:15,381 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:15,391 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:52:15,787 INFO  [HospitalDAOImpl] # of records found : 7
+19:52:15,796 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:15,805 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:52:16,379 INFO  [HospitalDAOImpl] # of records found : 3
+19:52:16,388 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:52:16,396 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:52:34,450 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+19:53:12,420 INFO  [HospitalDAOImpl] # of records found : 4
+19:53:12,429 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:53:12,437 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:53:21,240 INFO  [HospitalDAOImpl] ID of medication record updated : 0
+19:53:23,650 INFO  [HospitalDAOImpl] # of records found : 3
+19:53:23,659 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:53:23,667 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:53:35,503 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+19:53:45,507 INFO  [HospitalDAOImpl] # of records found : 7
+19:53:45,516 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:53:45,525 INFO  [HospitalDAOImpl] # of medication records found : 1
+19:53:45,947 INFO  [HospitalDAOImpl] # of records found : 4
+19:53:45,955 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:53:45,964 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:53:56,886 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+19:56:33,828 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+19:56:33,833 INFO  [HospitalDAOImpl] # of records found : 5
+19:56:48,266 INFO  [HospitalDAOImpl] Inserted surgical ID is : 7
+19:56:48,271 INFO  [HospitalDAOImpl] # of surgical records found : 2
+19:57:01,504 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+19:59:01,065 INFO  [HospitalDAOImpl] # of records found : 3
+19:59:01,074 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:59:01,084 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:59:02,062 INFO  [HospitalDAOImpl] # of records found : 5
+19:59:02,071 INFO  [HospitalDAOImpl] # of surgical records found : 2
+19:59:02,079 INFO  [HospitalDAOImpl] # of medication records found : 2
+19:59:03,172 INFO  [HospitalDAOImpl] # of records found : 3
+19:59:03,180 INFO  [HospitalDAOImpl] # of surgical records found : 1
+19:59:03,187 INFO  [HospitalDAOImpl] # of medication records found : 0
+19:59:18,459 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+20:02:05,801 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+20:02:05,833 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+20:02:05,848 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:02:05,879 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+20:02:05,973 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+20:02:06,051 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+20:02:06,223 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+20:02:06,254 INFO  [HospitalDAOImpl] # of records found : 7
+20:02:06,285 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+20:02:06,316 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+20:02:06,347 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+20:02:06,363 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:02:06,363 INFO  [HospitalDAOImpl] # of records found : 6
+20:02:06,457 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+20:02:06,659 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+20:02:06,722 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+20:02:08,496 INFO  [MainApp] Scene set up!
+20:02:09,084 INFO  [HospitalDAOImpl] # of records found : 5
+20:02:09,550 INFO  [HospitalDAOImpl] # of records found : 3
+20:02:09,559 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:02:09,566 INFO  [HospitalDAOImpl] # of medication records found : 0
+20:02:21,491 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+20:06:38,993 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+20:06:39,071 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+20:06:39,102 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:06:39,149 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+20:06:39,180 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+20:06:39,227 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+20:06:39,383 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+20:06:39,398 INFO  [HospitalDAOImpl] # of records found : 7
+20:06:39,445 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+20:06:39,476 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+20:06:39,508 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+20:06:39,508 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:06:39,523 INFO  [HospitalDAOImpl] # of records found : 6
+20:06:39,539 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+20:06:39,648 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+20:06:39,679 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+20:06:41,459 INFO  [MainApp] Scene set up!
+20:06:42,057 INFO  [HospitalDAOImpl] # of records found : 5
+20:06:42,556 INFO  [HospitalDAOImpl] # of records found : 3
+20:06:42,575 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:06:42,581 INFO  [HospitalDAOImpl] # of medication records found : 0
+20:06:59,048 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+20:06:59,054 INFO  [HospitalDAOImpl] # of records found : 4
+20:07:47,053 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+20:07:47,084 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+20:07:47,116 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:07:47,272 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+20:07:47,334 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+20:07:47,365 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+20:07:47,553 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+20:07:47,568 INFO  [HospitalDAOImpl] # of records found : 7
+20:07:47,599 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+20:07:47,631 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+20:07:47,662 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+20:07:47,677 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:07:47,693 INFO  [HospitalDAOImpl] # of records found : 6
+20:07:47,709 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+20:07:47,896 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+20:07:47,943 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+20:07:49,809 INFO  [MainApp] Scene set up!
+20:07:50,402 INFO  [HospitalDAOImpl] # of records found : 5
+20:07:50,882 INFO  [HospitalDAOImpl] # of records found : 3
+20:07:50,890 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:07:50,896 INFO  [HospitalDAOImpl] # of medication records found : 0
+20:08:02,736 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+20:08:02,742 INFO  [HospitalDAOImpl] # of records found : 4
+20:11:59,788 INFO  [MainApp] Scene set up!
+20:12:00,277 INFO  [HospitalDAOImpl] # of records found : 5
+20:12:00,750 INFO  [HospitalDAOImpl] # of records found : 4
+20:12:00,758 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:12:00,764 INFO  [HospitalDAOImpl] # of medication records found : 0
+20:12:04,431 INFO  [HospitalDAOImpl] # of records found : 4
+20:12:04,444 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:12:04,459 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:12:14,683 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+20:17:15,802 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+20:17:15,825 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+20:17:15,857 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:17:16,033 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+20:17:16,084 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+20:17:16,118 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+20:17:16,251 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+20:17:16,270 INFO  [HospitalDAOImpl] # of records found : 7
+20:17:16,291 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+20:17:16,317 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+20:17:16,341 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+20:17:16,347 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:17:16,353 INFO  [HospitalDAOImpl] # of records found : 6
+20:17:16,375 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+20:17:16,458 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+20:17:16,492 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+20:17:18,232 INFO  [MainApp] Scene set up!
+20:17:18,757 INFO  [HospitalDAOImpl] # of records found : 5
+20:17:19,198 INFO  [HospitalDAOImpl] # of records found : 3
+20:17:19,207 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:17:19,213 INFO  [HospitalDAOImpl] # of medication records found : 0
+20:17:35,825 ERROR [HospitalOverviewController] SQL error: Cannot add or update a child row: a foreign key constraint fails (`hospitaldb`.`medication`, CONSTRAINT `patient_3` FOREIGN KEY (`PATIENTID`) REFERENCES `patient` (`PATIENTID`))
+20:20:46,770 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+20:20:46,795 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+20:20:46,811 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:20:46,836 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+20:20:46,861 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+20:20:46,895 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+20:20:47,036 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+20:20:47,053 INFO  [HospitalDAOImpl] # of records found : 7
+20:20:47,092 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+20:20:47,119 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+20:20:47,153 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+20:20:47,164 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:20:47,176 INFO  [HospitalDAOImpl] # of records found : 6
+20:20:47,278 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+20:20:47,435 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+20:20:47,469 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+20:20:49,244 INFO  [MainApp] Scene set up!
+20:20:49,855 INFO  [HospitalDAOImpl] # of records found : 5
+20:20:50,311 INFO  [HospitalDAOImpl] # of records found : 3
+20:20:50,317 INFO  [HospitalDAOImpl] # of surgical records found : 1
+20:20:50,323 INFO  [HospitalDAOImpl] # of medication records found : 0
+20:21:03,594 INFO  [HospitalDAOImpl] Inserted medication ID is : 7
+20:21:03,600 INFO  [HospitalDAOImpl] # of medication records found : 1
+20:21:13,733 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+20:21:13,739 INFO  [HospitalDAOImpl] ID of patient record found : 1
+20:21:13,745 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:42:32,551 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+22:42:32,836 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+22:42:33,075 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:42:33,211 INFO  [HospitalDAOImpl] Inserted patient ID is : 8
+22:42:33,399 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+22:42:33,761 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+22:42:33,808 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+22:42:33,840 INFO  [HospitalDAOImpl] # of records found : 7
+22:42:33,856 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+22:42:33,871 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+22:42:33,910 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+22:42:33,926 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:42:33,937 INFO  [HospitalDAOImpl] # of records found : 7
+22:42:33,952 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+22:42:33,968 INFO  [HospitalDAOImpl] # of patient records deleted : 0
+22:42:34,030 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+22:43:16,755 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+22:43:16,899 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+22:43:16,944 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:43:17,022 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+22:43:17,084 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+22:43:17,273 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+22:43:17,335 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+22:43:17,370 INFO  [HospitalDAOImpl] # of records found : 7
+22:43:17,417 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+22:43:17,448 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+22:43:17,605 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+22:43:17,636 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:43:17,652 INFO  [HospitalDAOImpl] # of records found : 6
+22:43:17,718 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+22:43:17,970 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+22:43:17,997 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+22:43:39,904 INFO  [MainApp] Scene set up!
+22:43:42,020 INFO  [HospitalDAOImpl] # of records found : 5
+22:43:45,341 INFO  [HospitalDAOImpl] # of records found : 3
+22:43:45,414 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:43:45,466 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:43:54,293 INFO  [HospitalDAOImpl] # of records found : 4
+22:43:54,315 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:43:54,341 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:44:38,116 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+22:44:38,168 INFO  [HospitalDAOImpl] # of records found : 6
+22:44:40,276 INFO  [HospitalDAOImpl] # of records found : 0
+22:44:40,322 INFO  [HospitalDAOImpl] # of surgical records found : 0
+22:44:40,345 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:44:51,503 INFO  [HospitalDAOImpl] Inserted medication ID is : 7
+22:44:51,518 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:44:52,912 INFO  [HospitalDAOImpl] # of records found : 4
+22:44:52,932 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:44:52,941 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:44:54,190 INFO  [HospitalDAOImpl] # of records found : 0
+22:44:54,207 INFO  [HospitalDAOImpl] # of surgical records found : 0
+22:44:54,220 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:45:02,730 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+22:45:02,743 INFO  [HospitalDAOImpl] ID of patient record found : 7
+22:45:02,760 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:45:20,136 INFO  [HospitalDAOImpl] Inserted medication ID is : 8
+22:45:20,158 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:45:43,950 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+22:45:43,964 INFO  [HospitalDAOImpl] ID of patient record found : 7
+22:45:44,029 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:46:41,770 INFO  [HospitalDAOImpl] # of records found : 7
+22:46:41,813 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:46:41,835 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:46:42,492 INFO  [HospitalDAOImpl] # of records found : 4
+22:46:42,505 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:46:42,517 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:46:43,469 INFO  [HospitalDAOImpl] # of records found : 3
+22:46:43,486 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:46:43,494 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:51:52,262 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+22:51:52,331 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+22:51:52,419 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:51:52,443 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+22:51:52,469 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+22:51:52,592 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+22:51:52,667 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+22:51:52,707 INFO  [HospitalDAOImpl] # of records found : 7
+22:51:52,731 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+22:51:52,762 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+22:51:52,783 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+22:51:52,802 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:51:52,865 INFO  [HospitalDAOImpl] # of records found : 6
+22:51:52,925 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+22:51:52,940 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+22:51:53,004 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+22:51:56,615 INFO  [MainApp] Scene set up!
+22:51:57,689 INFO  [HospitalDAOImpl] # of records found : 5
+22:51:58,637 INFO  [HospitalDAOImpl] # of records found : 3
+22:51:58,686 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:51:58,701 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:57:08,694 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+22:57:08,776 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+22:57:08,817 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:08,886 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+22:57:09,035 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+22:57:09,092 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+22:57:09,322 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+22:57:09,339 INFO  [HospitalDAOImpl] # of records found : 7
+22:57:09,352 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+22:57:09,461 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+22:57:09,480 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+22:57:09,501 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:09,514 INFO  [HospitalDAOImpl] # of records found : 6
+22:57:09,546 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+22:57:09,654 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+22:57:09,674 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+22:57:13,861 INFO  [MainApp] Scene set up!
+22:57:14,858 INFO  [HospitalDAOImpl] # of records found : 5
+22:57:15,809 INFO  [HospitalDAOImpl] # of records found : 3
+22:57:15,826 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:15,872 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:57:38,153 INFO  [HospitalDAOImpl] # of records found : 4
+22:57:38,171 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:38,225 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:57:38,933 INFO  [HospitalDAOImpl] # of records found : 7
+22:57:38,948 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:39,025 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:39,481 INFO  [HospitalDAOImpl] # of records found : 4
+22:57:39,503 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:39,516 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:42,648 INFO  [HospitalDAOImpl] # of records found : 2
+22:57:42,663 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:42,695 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:43,227 INFO  [HospitalDAOImpl] # of records found : 7
+22:57:43,239 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:43,247 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:44,038 INFO  [HospitalDAOImpl] # of records found : 4
+22:57:44,125 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:44,138 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:57:44,757 INFO  [HospitalDAOImpl] # of records found : 2
+22:57:44,768 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:44,780 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:45,500 INFO  [HospitalDAOImpl] # of records found : 4
+22:57:45,513 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:45,551 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:46,877 INFO  [HospitalDAOImpl] # of records found : 2
+22:57:46,891 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:46,903 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:47,643 INFO  [HospitalDAOImpl] # of records found : 7
+22:57:47,652 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:47,661 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:57:59,615 INFO  [HospitalDAOImpl] # of records found : 4
+22:57:59,628 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:57:59,645 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:58:00,068 INFO  [HospitalDAOImpl] # of records found : 3
+22:58:00,081 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:00,095 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:58:00,660 INFO  [HospitalDAOImpl] # of records found : 4
+22:58:00,701 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:00,709 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:58:01,140 INFO  [HospitalDAOImpl] # of records found : 7
+22:58:01,153 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:01,165 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:01,633 INFO  [HospitalDAOImpl] # of records found : 2
+22:58:01,659 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:01,666 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:02,185 INFO  [HospitalDAOImpl] # of records found : 4
+22:58:02,218 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:02,227 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:02,846 INFO  [HospitalDAOImpl] # of records found : 4
+22:58:02,857 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:02,864 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:58:03,331 INFO  [HospitalDAOImpl] # of records found : 3
+22:58:03,370 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:03,382 INFO  [HospitalDAOImpl] # of medication records found : 0
+22:58:03,828 INFO  [HospitalDAOImpl] # of records found : 7
+22:58:03,841 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:03,854 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:04,312 INFO  [HospitalDAOImpl] # of records found : 2
+22:58:04,325 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:04,342 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:05,367 INFO  [HospitalDAOImpl] # of records found : 4
+22:58:05,378 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:05,385 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:06,001 INFO  [HospitalDAOImpl] # of records found : 7
+22:58:06,013 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:06,028 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:06,506 INFO  [HospitalDAOImpl] # of records found : 2
+22:58:06,518 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:06,541 INFO  [HospitalDAOImpl] # of medication records found : 1
+22:58:07,012 INFO  [HospitalDAOImpl] # of records found : 4
+22:58:07,046 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:07,058 INFO  [HospitalDAOImpl] # of medication records found : 2
+22:58:07,555 INFO  [HospitalDAOImpl] # of records found : 3
+22:58:07,567 INFO  [HospitalDAOImpl] # of surgical records found : 1
+22:58:07,588 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:43:40,122 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:43:40,436 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:43:40,678 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:43:41,332 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:43:41,456 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:43:41,698 INFO  [HospitalDAOImpl] # of medication records deleted : 0
+15:43:42,018 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:43:42,056 INFO  [HospitalDAOImpl] # of records found : 7
+15:43:42,113 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:43:42,166 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:43:42,204 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:43:42,258 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:43:42,280 INFO  [HospitalDAOImpl] # of records found : 6
+15:43:42,318 INFO  [HospitalDAOImpl] Inserted medication ID is : 7
+15:43:42,382 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:43:42,397 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:45:23,777 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:45:23,815 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:45:23,897 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:45:23,919 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:45:23,987 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:45:24,051 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+15:45:24,091 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:45:24,147 INFO  [HospitalDAOImpl] # of records found : 7
+15:45:24,207 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:45:24,243 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:45:24,288 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:45:24,323 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:45:24,344 INFO  [HospitalDAOImpl] # of records found : 6
+15:45:24,406 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+15:45:24,493 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:45:24,541 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:45:44,560 INFO  [MainApp] Scene set up!
+15:45:46,699 INFO  [HospitalDAOImpl] # of records found : 5
+15:45:52,394 INFO  [HospitalDAOImpl] # of records found : 3
+15:45:52,448 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:45:52,457 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:54:49,756 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:54:49,896 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:54:49,997 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:54:50,052 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:54:50,118 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:54:50,185 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+15:54:50,292 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:54:50,327 INFO  [HospitalDAOImpl] # of records found : 7
+15:54:50,353 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:54:50,392 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:54:50,419 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:54:50,438 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:54:50,449 INFO  [HospitalDAOImpl] # of records found : 6
+15:54:50,485 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+15:54:50,588 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:54:50,605 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:54:54,853 INFO  [MainApp] Scene set up!
+15:54:58,250 INFO  [HospitalDAOImpl] # of records found : 5
+15:54:59,638 INFO  [HospitalDAOImpl] # of records found : 3
+15:54:59,715 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:54:59,725 INFO  [HospitalDAOImpl] # of medication records found : 0
+16:01:13,391 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+16:01:13,514 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+16:01:13,639 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:01:13,683 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+16:01:13,765 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+16:01:13,832 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+16:01:13,929 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+16:01:13,964 INFO  [HospitalDAOImpl] # of records found : 7
+16:01:14,010 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+16:01:14,030 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+16:01:14,056 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+16:01:14,100 INFO  [HospitalDAOImpl] # of medication records found : 1
+16:01:14,113 INFO  [HospitalDAOImpl] # of records found : 6
+16:01:14,176 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+16:01:14,354 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+16:01:14,420 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+16:01:18,950 INFO  [MainApp] Scene set up!
+16:01:20,327 INFO  [HospitalDAOImpl] # of records found : 5
+16:01:23,746 INFO  [HospitalDAOImpl] # of records found : 3
+16:01:23,763 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:01:23,830 INFO  [HospitalDAOImpl] # of medication records found : 0
+16:10:46,085 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+16:10:46,204 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+16:10:46,316 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:10:46,378 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+16:10:46,493 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+16:10:46,523 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+16:10:46,613 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+16:10:46,705 INFO  [HospitalDAOImpl] # of records found : 7
+16:10:46,744 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+16:10:46,862 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+16:10:46,890 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+16:10:46,934 INFO  [HospitalDAOImpl] # of medication records found : 1
+16:10:46,958 INFO  [HospitalDAOImpl] # of records found : 6
+16:10:47,018 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+16:10:47,094 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+16:10:47,112 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+16:10:51,162 INFO  [MainApp] Scene set up!
+16:10:52,294 INFO  [HospitalDAOImpl] # of records found : 5
+16:10:53,433 INFO  [HospitalDAOImpl] # of records found : 3
+16:10:53,474 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:10:53,491 INFO  [HospitalDAOImpl] # of medication records found : 0
+16:23:02,259 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+16:23:02,318 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+16:23:02,393 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:23:02,409 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+16:23:02,513 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+16:23:02,625 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+16:23:02,692 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+16:23:02,746 INFO  [HospitalDAOImpl] # of records found : 7
+16:23:02,785 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+16:23:02,806 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+16:23:02,977 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+16:23:03,002 INFO  [HospitalDAOImpl] # of medication records found : 1
+16:23:03,071 INFO  [HospitalDAOImpl] # of records found : 6
+16:23:03,169 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+16:23:03,587 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+16:23:03,633 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+16:23:08,013 INFO  [MainApp] Scene set up!
+16:23:09,222 INFO  [HospitalDAOImpl] # of records found : 5
+16:23:10,267 INFO  [HospitalDAOImpl] # of records found : 3
+16:23:10,333 INFO  [HospitalDAOImpl] # of surgical records found : 1
+16:23:10,344 INFO  [HospitalDAOImpl] # of medication records found : 0
+14:53:14,547 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+14:53:14,624 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+14:53:14,664 INFO  [HospitalDAOImpl] # of surgical records found : 1
+14:53:14,821 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+14:53:14,904 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+14:53:15,070 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+14:53:15,243 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+14:53:15,339 INFO  [HospitalDAOImpl] # of records found : 7
+14:53:15,459 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+14:53:15,525 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+14:53:15,542 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+14:53:15,617 INFO  [HospitalDAOImpl] # of medication records found : 1
+14:53:15,630 INFO  [HospitalDAOImpl] # of records found : 6
+14:53:15,723 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+14:53:16,472 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+14:55:20,421 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+14:55:20,518 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+14:55:20,572 INFO  [HospitalDAOImpl] # of surgical records found : 1
+14:55:20,620 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+14:55:20,700 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+14:55:20,726 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+14:55:20,794 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+14:55:20,810 INFO  [HospitalDAOImpl] # of records found : 7
+14:55:20,899 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+14:55:21,018 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+14:55:21,133 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+14:55:21,166 INFO  [HospitalDAOImpl] # of medication records found : 1
+14:55:21,185 INFO  [HospitalDAOImpl] # of records found : 6
+14:55:21,277 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+14:55:21,570 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+14:56:56,009 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+14:56:56,090 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+14:56:56,161 INFO  [HospitalDAOImpl] # of surgical records found : 1
+14:56:56,225 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+14:56:56,327 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+14:56:56,378 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+14:56:56,451 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+14:56:56,473 INFO  [HospitalDAOImpl] # of records found : 7
+14:56:56,487 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+14:56:56,600 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+14:56:56,694 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+14:56:56,756 INFO  [HospitalDAOImpl] # of medication records found : 1
+14:56:56,767 INFO  [HospitalDAOImpl] # of records found : 6
+14:56:56,863 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+14:56:56,945 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+14:56:57,013 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+14:57:15,767 INFO  [MainApp] Scene set up!
+14:57:17,140 INFO  [HospitalDAOImpl] # of records found : 5
+14:57:19,473 INFO  [HospitalDAOImpl] # of records found : 3
+14:57:19,556 INFO  [HospitalDAOImpl] # of surgical records found : 1
+14:57:19,606 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:26:58,271 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:26:58,330 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:26:58,409 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:26:58,471 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:26:58,626 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:26:58,653 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+15:26:58,715 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:26:58,795 INFO  [HospitalDAOImpl] # of records found : 7
+15:26:58,827 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:26:58,864 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:26:58,938 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:26:58,956 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:26:58,997 INFO  [HospitalDAOImpl] # of records found : 6
+15:26:59,011 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+15:26:59,121 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:26:59,163 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:27:03,660 INFO  [MainApp] Scene set up!
+15:27:05,498 INFO  [HospitalDAOImpl] # of records found : 5
+15:27:07,708 INFO  [HospitalDAOImpl] # of records found : 3
+15:27:07,794 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:27:07,803 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:30:55,038 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:30:55,116 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:30:55,147 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:30:55,225 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:30:55,241 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:30:55,350 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+15:30:55,397 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:30:55,428 INFO  [HospitalDAOImpl] # of records found : 7
+15:30:55,443 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:30:55,537 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:30:55,553 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:30:55,693 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:30:55,709 INFO  [HospitalDAOImpl] # of records found : 6
+15:30:55,787 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+15:30:55,802 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:30:55,849 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:30:59,162 INFO  [MainApp] Scene set up!
+15:31:00,205 INFO  [HospitalDAOImpl] # of records found : 5
+15:31:01,015 INFO  [HospitalDAOImpl] # of records found : 3
+15:31:01,026 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:31:01,037 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:31:11,333 INFO  [HospitalDAOImpl] # of records found : 5
+15:31:11,343 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:31:11,389 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:31:12,465 INFO  [HospitalDAOImpl] # of records found : 7
+15:31:12,485 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:31:12,505 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:31:13,216 INFO  [HospitalDAOImpl] # of records found : 2
+15:31:13,251 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:31:13,305 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:31:13,940 INFO  [HospitalDAOImpl] # of records found : 3
+15:31:14,039 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:31:14,175 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:33:23,638 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:33:23,743 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:33:23,779 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:23,799 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:33:23,890 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:33:23,919 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+15:33:24,038 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:33:24,117 INFO  [HospitalDAOImpl] # of records found : 7
+15:33:24,143 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:33:24,222 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:33:24,236 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:33:24,284 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:33:24,334 INFO  [HospitalDAOImpl] # of records found : 6
+15:33:24,392 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+15:33:24,460 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:33:24,506 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:33:28,169 INFO  [MainApp] Scene set up!
+15:33:29,246 INFO  [HospitalDAOImpl] # of records found : 5
+15:33:30,028 INFO  [HospitalDAOImpl] # of records found : 3
+15:33:30,040 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:30,114 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:33:46,903 INFO  [HospitalDAOImpl] # of records found : 2
+15:33:46,994 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:47,057 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:33:47,809 INFO  [HospitalDAOImpl] # of records found : 3
+15:33:47,856 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:47,869 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:33:48,436 INFO  [HospitalDAOImpl] # of records found : 7
+15:33:49,042 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:49,112 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:33:49,265 INFO  [HospitalDAOImpl] # of records found : 5
+15:33:49,298 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:49,310 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:33:49,909 INFO  [HospitalDAOImpl] # of records found : 3
+15:33:49,928 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:33:49,951 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:40:33,147 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+15:40:33,209 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+15:40:33,272 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:33,350 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+15:40:33,365 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+15:40:33,397 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+15:40:33,443 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+15:40:33,490 INFO  [HospitalDAOImpl] # of records found : 7
+15:40:33,584 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:40:33,646 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+15:40:33,677 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:40:33,709 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:33,802 INFO  [HospitalDAOImpl] # of records found : 6
+15:40:33,865 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+15:40:33,943 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+15:40:33,958 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:40:37,677 INFO  [MainApp] Scene set up!
+15:40:38,874 INFO  [HospitalDAOImpl] # of records found : 5
+15:40:40,023 INFO  [HospitalDAOImpl] # of records found : 3
+15:40:40,113 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:40,197 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:40:45,884 INFO  [HospitalDAOImpl] # of records found : 7
+15:40:45,896 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:45,950 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:46,987 INFO  [HospitalDAOImpl] # of records found : 5
+15:40:47,007 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:47,086 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:40:47,787 INFO  [HospitalDAOImpl] # of records found : 3
+15:40:47,802 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:47,810 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:40:49,123 INFO  [HospitalDAOImpl] # of records found : 5
+15:40:49,145 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:49,203 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:40:49,796 INFO  [HospitalDAOImpl] # of records found : 7
+15:40:49,807 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:49,815 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:50,375 INFO  [HospitalDAOImpl] # of records found : 2
+15:40:50,383 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:50,407 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:50,899 INFO  [HospitalDAOImpl] # of records found : 3
+15:40:50,910 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:50,952 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:51,628 INFO  [HospitalDAOImpl] # of records found : 2
+15:40:51,649 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:51,657 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:52,071 INFO  [HospitalDAOImpl] # of records found : 7
+15:40:52,094 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:52,136 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:52,515 INFO  [HospitalDAOImpl] # of records found : 5
+15:40:52,524 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:52,531 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:40:53,038 INFO  [HospitalDAOImpl] # of records found : 3
+15:40:53,061 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:53,084 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:40:53,663 INFO  [HospitalDAOImpl] # of records found : 5
+15:40:53,685 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:53,692 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:40:54,077 INFO  [HospitalDAOImpl] # of records found : 7
+15:40:54,121 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:54,130 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:54,521 INFO  [HospitalDAOImpl] # of records found : 2
+15:40:54,532 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:54,552 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:40:54,970 INFO  [HospitalDAOImpl] # of records found : 3
+15:40:54,983 INFO  [HospitalDAOImpl] # of surgical records found : 1
+15:40:54,993 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:41:24,747 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+15:41:24,763 INFO  [HospitalDAOImpl] # of records found : 6
+15:41:26,207 INFO  [HospitalDAOImpl] # of records found : 0
+15:41:26,226 INFO  [HospitalDAOImpl] # of surgical records found : 0
+15:41:26,237 INFO  [HospitalDAOImpl] # of medication records found : 0
+15:41:37,071 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+15:41:37,100 INFO  [HospitalDAOImpl] # of records found : 1
+15:41:43,375 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+15:41:43,436 INFO  [HospitalDAOImpl] ID of patient record found : 7
+15:41:43,453 INFO  [HospitalDAOImpl] # of records found : 1
+15:41:55,229 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 23
+15:41:55,297 INFO  [HospitalDAOImpl] # of records found : 2
+15:42:04,454 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+15:42:18,309 INFO  [HospitalDAOImpl] Inserted medication ID is : 7
+15:42:18,319 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:42:25,860 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+15:42:25,880 INFO  [HospitalDAOImpl] ID of patient record found : 7
+15:42:25,915 INFO  [HospitalDAOImpl] # of medication records found : 1
+15:42:46,320 INFO  [HospitalDAOImpl] Inserted medication ID is : 8
+15:42:46,395 INFO  [HospitalDAOImpl] # of medication records found : 2
+15:42:50,437 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+09:04:42,754 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+09:04:42,967 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+09:04:43,096 INFO  [HospitalDAOImpl] # of surgical records found : 1
+09:04:43,220 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+09:04:43,294 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+09:04:43,387 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+09:04:43,619 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+09:04:43,662 INFO  [HospitalDAOImpl] # of records found : 7
+09:04:43,866 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+09:04:43,941 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+09:04:44,022 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+09:04:44,086 INFO  [HospitalDAOImpl] # of medication records found : 1
+09:04:44,100 INFO  [HospitalDAOImpl] # of records found : 6
+09:04:44,132 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+09:04:45,123 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+09:04:45,227 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+09:05:10,705 INFO  [MainApp] Scene set up!
+09:05:12,332 INFO  [HospitalDAOImpl] # of records found : 5
+09:05:16,689 INFO  [HospitalDAOImpl] # of records found : 3
+09:05:16,744 INFO  [HospitalDAOImpl] # of surgical records found : 1
+09:05:16,754 INFO  [HospitalDAOImpl] # of medication records found : 0
+09:13:36,458 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+09:13:36,490 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+09:13:36,526 INFO  [HospitalDAOImpl] # of surgical records found : 1
+09:13:36,566 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+09:13:36,610 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+09:13:36,675 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+09:13:36,899 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+09:13:36,923 INFO  [HospitalDAOImpl] # of records found : 7
+09:13:36,999 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+09:13:37,056 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+09:13:37,131 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+09:13:37,148 INFO  [HospitalDAOImpl] # of medication records found : 1
+09:13:37,162 INFO  [HospitalDAOImpl] # of records found : 6
+09:13:37,176 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+09:13:37,300 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+09:13:37,324 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+09:13:40,897 INFO  [MainApp] Scene set up!
+09:13:41,971 INFO  [HospitalDAOImpl] # of records found : 5
+09:13:42,751 INFO  [HospitalDAOImpl] # of records found : 3
+09:13:42,764 INFO  [HospitalDAOImpl] # of surgical records found : 1
+09:13:42,776 INFO  [HospitalDAOImpl] # of medication records found : 0
+09:16:09,644 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+09:16:09,715 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+09:16:09,790 INFO  [HospitalDAOImpl] # of surgical records found : 1
+09:16:09,846 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+09:16:09,867 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+09:16:09,884 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+09:16:09,920 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+09:16:10,001 INFO  [HospitalDAOImpl] # of records found : 7
+09:16:10,042 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+09:16:10,088 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+09:16:10,119 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+09:16:10,135 INFO  [HospitalDAOImpl] # of medication records found : 1
+09:16:10,150 INFO  [HospitalDAOImpl] # of records found : 6
+09:16:10,183 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+09:16:10,197 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+09:16:10,221 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+09:16:14,925 INFO  [MainApp] Scene set up!
+09:16:16,158 INFO  [HospitalDAOImpl] # of records found : 5
+09:16:16,932 INFO  [HospitalDAOImpl] # of records found : 3
+09:16:16,971 INFO  [HospitalDAOImpl] # of surgical records found : 1
+09:16:17,017 INFO  [HospitalDAOImpl] # of medication records found : 0
+11:56:08,611 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+11:56:08,767 INFO  [HospitalDAOImpl] Inserted surgical ID is : 6
+11:56:08,854 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:56:08,937 INFO  [HospitalDAOImpl] Inserted patient ID is : 6
+11:56:08,964 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+11:56:09,108 INFO  [HospitalDAOImpl] # of medication records deleted : 1
+11:56:09,209 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 21
+11:56:09,243 INFO  [HospitalDAOImpl] # of records found : 7
+11:56:09,256 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+11:56:09,273 INFO  [HospitalDAOImpl] ID of patient record updated : 1
+11:56:09,374 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+11:56:09,395 INFO  [HospitalDAOImpl] # of medication records found : 1
+11:56:09,457 INFO  [HospitalDAOImpl] # of records found : 6
+11:56:09,479 INFO  [HospitalDAOImpl] Inserted medication ID is : 6
+11:56:09,536 INFO  [HospitalDAOImpl] # of patient records deleted : 1
+11:56:09,597 INFO  [HospitalDAOImpl] # of inpatient records deleted : 1
+11:56:31,419 INFO  [MainApp] Scene set up!
+11:56:36,809 INFO  [HospitalDAOImpl] # of records found : 5
+11:57:28,948 INFO  [HospitalDAOImpl] # of records found : 3
+11:57:28,965 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:57:28,979 INFO  [HospitalDAOImpl] # of medication records found : 0
+11:57:31,731 INFO  [HospitalDAOImpl] # of records found : 7
+11:57:31,949 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:57:31,989 INFO  [HospitalDAOImpl] # of medication records found : 1
+11:57:33,001 INFO  [HospitalDAOImpl] # of records found : 2
+11:57:33,048 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:57:33,059 INFO  [HospitalDAOImpl] # of medication records found : 1
+11:57:33,697 INFO  [HospitalDAOImpl] # of records found : 3
+11:57:33,719 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:57:33,728 INFO  [HospitalDAOImpl] # of medication records found : 1
+11:58:31,683 INFO  [HospitalDAOImpl] Inserted patient ID is : 7
+11:58:31,736 INFO  [HospitalDAOImpl] # of records found : 6
+11:58:33,775 INFO  [HospitalDAOImpl] # of records found : 0
+11:58:33,812 INFO  [HospitalDAOImpl] # of surgical records found : 0
+11:58:33,821 INFO  [HospitalDAOImpl] # of medication records found : 0
+11:58:35,293 INFO  [HospitalDAOImpl] # of records found : 3
+11:58:35,301 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:58:35,310 INFO  [HospitalDAOImpl] # of medication records found : 1
+11:58:36,532 INFO  [HospitalDAOImpl] # of records found : 0
+11:58:36,541 INFO  [HospitalDAOImpl] # of surgical records found : 0
+11:58:36,553 INFO  [HospitalDAOImpl] # of medication records found : 0
+11:58:49,833 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 22
+11:58:49,866 INFO  [HospitalDAOImpl] # of records found : 1
+11:58:56,170 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+11:58:56,214 INFO  [HospitalDAOImpl] ID of patient record found : 7
+11:58:56,295 INFO  [HospitalDAOImpl] # of records found : 1
+11:59:12,001 INFO  [HospitalDAOImpl] Inserted inpatient ID is : 23
+11:59:12,047 INFO  [HospitalDAOImpl] # of records found : 2
+11:59:18,725 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+11:59:18,762 INFO  [HospitalDAOImpl] ID of patient record found : 7
+11:59:18,793 INFO  [HospitalDAOImpl] # of records found : 2
+11:59:30,021 INFO  [HospitalDAOImpl] ID of inpatient record updated : 1
+11:59:30,070 INFO  [HospitalDAOImpl] ID of patient record found : 7
+11:59:30,078 INFO  [HospitalDAOImpl] # of records found : 2
+11:59:31,842 INFO  [HospitalDAOImpl] # of records found : 3
+11:59:31,856 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:59:31,877 INFO  [HospitalDAOImpl] # of medication records found : 1
+11:59:32,487 INFO  [HospitalDAOImpl] # of records found : 2
+11:59:32,499 INFO  [HospitalDAOImpl] # of surgical records found : 0
+11:59:32,509 INFO  [HospitalDAOImpl] # of medication records found : 0
+11:59:47,515 INFO  [HospitalDAOImpl] Inserted surgical ID is : 7
+11:59:47,545 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:59:53,949 INFO  [HospitalDAOImpl] ID of surgical record updated : 1
+11:59:53,959 INFO  [HospitalDAOImpl] ID of patient record found : 7
+11:59:53,971 INFO  [HospitalDAOImpl] # of surgical records found : 1
+11:59:59,168 INFO  [HospitalDAOImpl] # of surgical records deleted : 1
+12:00:10,247 INFO  [HospitalDAOImpl] Inserted medication ID is : 7
+12:00:10,283 INFO  [HospitalDAOImpl] # of medication records found : 1
+12:00:15,914 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+12:00:15,956 INFO  [HospitalDAOImpl] ID of patient record found : 7
+12:00:15,974 INFO  [HospitalDAOImpl] # of medication records found : 1
+12:00:29,502 INFO  [HospitalDAOImpl] Inserted medication ID is : 8
+12:00:29,539 INFO  [HospitalDAOImpl] # of medication records found : 2
+12:00:35,173 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+12:00:35,182 INFO  [HospitalDAOImpl] ID of patient record found : 7
+12:00:35,196 INFO  [HospitalDAOImpl] # of medication records found : 2
+12:00:44,624 INFO  [HospitalDAOImpl] ID of medication record updated : 1
+12:00:44,749 INFO  [HospitalDAOImpl] ID of patient record found : 7
+12:00:44,760 INFO  [HospitalDAOImpl] # of medication records found : 2
